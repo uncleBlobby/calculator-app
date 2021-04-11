@@ -6,7 +6,7 @@
 #calculatorOutline {
     display: flex;
     flex-direction: column;
-    background-color: darkkhaki;
+    background-color: #B4DB8F;
     width: 540px;
     height: 540px;
     border-style:dashed;
@@ -17,7 +17,7 @@
     display:block;
     background-color: lightgray;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 2px;
     width: 500px;
     height: 60px;
     border-style:dashed;
@@ -35,18 +35,21 @@
     width: 500px;
     margin-left: 20px;
     margin-top: 20px;
+    /*
     border-style:dashed;
     border-width: 1px;
+    */
 }
 
 .numberButton {
     font-size: 1rem;
+    color:white;
     padding-top:10px;
     text-align:center;
     text-justify: auto;
     border-style:dotted;
     border-width: 1px;
-    background-color: darkseagreen;
+    background-color: #7A6B8F;
 }
 
 #zeroButton {
@@ -76,18 +79,25 @@
 
 .functionButton {
     font-size: 1rem;
+    color: white;
     padding-top:20px;
     text-align:center;
     text-justify: auto;
     border-style:dotted;
     border-width: 1px;
-    background-color: darksalmon;  
+    background-color: #BF4F64;
 }
 
 .functionButton:hover {
-    background-color: red;
+    background-color: #DB84A1;
 }
 
 .numberButton:hover {
-    background-color: darkolivegreen;
+    background-color: #7A2FDF;
+}
+
+.modelNumber {
+    font-size: 0.2rem;
+    padding-top: 4px;
+    padding-left: 20px;
 }
