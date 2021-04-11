@@ -41,7 +41,7 @@
 
 .numberButton {
     font-size: 1rem;
-    padding-top:20px;
+    padding-top:10px;
     text-align:center;
     text-justify: auto;
     border-style:dotted;
@@ -70,6 +70,10 @@
     padding-top: 10px;
 }
 
+#equalsButton {
+    padding-top: 10px;
+}
+
 .functionButton {
     font-size: 1rem;
     padding-top:20px;
@@ -78,4 +82,12 @@
     border-style:dotted;
     border-width: 1px;
     background-color: darksalmon;  
+}
+
+.functionButton:hover {
+    background-color: red;
+}
+
+.numberButton:hover {
+    background-color: darkolivegreen;
 }
