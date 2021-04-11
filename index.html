@@ -14,6 +14,10 @@
 
 <body>
 
+    <audio id="buttonSound">
+        <source src="buttonClick1mp3.mp3" type="audio/mp3">
+    </audio>
+
     <!-- buttons required: add, subtract, multiply, divide, 0 - 9, equals, decimal-->
 
     <div id='calculatorOutline'>
@@ -37,14 +41,14 @@
             <div id="one" class="numberButton" onclick="numberButtonPress(4)">4</div>
             <div id="one" class="numberButton" onclick="numberButtonPress(5)">5</div>
             <div id="one" class="numberButton" onclick="numberButtonPress(6)">6</div>
-            <div id="plusButton" class="functionButton"> + </div>
+            <div id="plusButton" class="functionButton" onclick="plusButton()"> + </div>
             <div id="oneButton" class="numberButton" onclick="numberButtonPress(1)"> 1 </div>
             <div id="twoButton" class="numberButton" onclick="numberButtonPress(2)"> 2 </div>
             <div id="threeButton" class="numberButton" onclick="numberButtonPress(3)"> 3 </div>
             
             <div id="zeroButton" class="numberButton" onclick="numberButtonPress(0)"> 0 </div>
             <div id="one" class="numberButton"> . </div>
-            <div id="equalsButton" class="functionButton"> = </div>
+            <div id="equalsButton" class="functionButton" onclick="equalsButton(firstNumberInt, secondNumberInt)"> = </div>
         
         
         
