@@ -1,0 +1,81 @@
+:root {
+    font-size: 48px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#calculatorOutline {
+    display: flex;
+    flex-direction: column;
+    background-color: darkkhaki;
+    width: 540px;
+    height: 540px;
+    border-style:dashed;
+    border-width: 1px;
+}
+
+#digitDisplay {
+    display:block;
+    background-color: lightgray;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 60px;
+    border-style:dashed;
+    border-width: 1px;
+    text-align:end;
+
+}
+
+#buttonContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 5px;
+    height: 420px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style:dashed;
+    border-width: 1px;
+}
+
+.numberButton {
+    font-size: 1rem;
+    padding-top:20px;
+    text-align:center;
+    text-justify: auto;
+    border-style:dotted;
+    border-width: 1px;
+    background-color: darkseagreen;
+}
+
+#zeroButton {
+    grid-area: 5 / 1 / span 1 / span 2;
+}
+
+#plusButton {
+    grid-area: 3 / 4 / span 2 / span 1;
+}
+
+#clearButton {
+    padding-top: 10px;
+    grid-area: 1 / 1 / span 1 / span 2;
+}
+
+#divideButton {
+    padding-top: 10px;
+}
+
+#subtractButton {
+    padding-top: 10px;
+}
+
+.functionButton {
+    font-size: 1rem;
+    padding-top:20px;
+    text-align:center;
+    text-justify: auto;
+    border-style:dotted;
+    border-width: 1px;
+    background-color: darksalmon;  
+}
